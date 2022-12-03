@@ -1,0 +1,79 @@
+.MMgrid{
+  display: grid;
+  grid-template-columns: 500px;
+}
+
+.Mgrid{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin-left: 10px;
+}
+
+.grid1{
+  background-color: rgb(95, 129, 160);
+  margin-right: 5px;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  
+  
+}
+.grid1:hover{
+  opacity: 0.6;
+  
+}
+
+.grid1:active{
+  opacity: 0.9;
+}
+
+.grid2{
+  background-color: rgb(255, 166, 0);
+  margin-right: 5px;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer; 
+  
+}
+
+.grid2:hover{
+  opacity: 0.6;
+  
+}
+
+.grid2:active{
+  opacity: 0.9;
+}
+
+.pic{
+
+  width:30px;
+  vertical-align: top;
+  margin-top: 5%;
+  margin-left: 5px;
+  border-radius: 8px;
+
+  
+}
+
+.artist-name{
+  display: inline-block;
+  margin-top: 10px;
+
+
+}
+
+.song-name{
+  display: block;
+  padding-top: 0;
+  margin-top: 0%;
+  margin-left: 20%;
+  
+  }
+
+  p{
+    color: aliceblue;
+  }
+
+
+  
